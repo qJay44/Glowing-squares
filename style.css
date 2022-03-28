@@ -1,0 +1,20 @@
+body {
+    background: hsl(0, 0%, 7%);
+    margin: 0;
+    overflow: hidden;
+}
+
+.row {
+    display: flex;
+}
+
+.square {
+    position: relative;
+    background: transparent;
+    box-shadow: 0 0 2px #000;
+    transition: 1s;
+}
+
+.square:hover { 
+    transition-duration: 0s;
+}
